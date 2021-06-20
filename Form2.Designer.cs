@@ -1,6 +1,19 @@
-﻿
+﻿using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace addExe
 {
+    public class Entry
+    {
+        private static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form2());
+        }
+    }
     partial class Form2
     {
         /// <summary>
